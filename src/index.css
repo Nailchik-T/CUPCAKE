@@ -1,0 +1,19 @@
+body {
+  background: #1E1930;
+  color: #D2D1D5;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-items: center;
+  max-width: 600px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  height: 100dvh;
+}
