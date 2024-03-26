@@ -8,12 +8,3 @@ export interface ICurrencyRate {
   timestamp: number;
   date: string;
 }
-
-export interface ICurrencyData {
-  source: string;
-  rates: {
-    RUB: number;
-    USD: number;
-    EUR: number;
-  };
-}
