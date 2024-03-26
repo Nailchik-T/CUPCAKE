@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import MarketDataColumn from "./components/MarketDataColumn";
+import HomePage from "./pages/HomePage.tsx";
 
 const queryClient = new QueryClient();
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <div className="container">
-          <MarketDataColumn />
+          <HomePage />
         </div>
       </QueryClientProvider>
     </>
