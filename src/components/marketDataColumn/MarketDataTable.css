@@ -1,0 +1,32 @@
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+tr {
+    background-color: #423b5b;
+}
+
+th {
+    background-color: #342F44;
+    color: white;
+}
+.noBorder {
+    border:none !important;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+}
+
+.lowestRate{
+    background-color: red;
+}
