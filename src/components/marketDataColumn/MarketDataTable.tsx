@@ -2,7 +2,7 @@ import React from "react";
 import calculateLowestRates from "../../helpers/calculateLowestRates.helper.ts";
 import { IRates } from "../../interfaces/rates.interface.ts";
 import RateCell from "./rateCell/RateCell.tsx";
-import "./MarketDataColumn.css";
+import "./MarketDataTable.css";
 import { ICurrencyRate } from "../../interfaces/currencyRate.interface.ts";
 
 interface MarketDataColumnProps {
